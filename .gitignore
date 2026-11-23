@@ -1,15 +1,16 @@
-# Visual Studio
+# Visual Studio / Rider
 .vs/
-bin/
-obj/
-
-# User files
+.idea/
 *.user
 *.suo
 
 # Build
-*.exe
-*.dll
+bin/
+obj/
+publicar/
 
-# Logs
+# Banco local e logs
+*.db
+*.db-wal
+*.db-shm
 *.log
